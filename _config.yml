@@ -1,10 +1,10 @@
-title: Fabric w/ Azure Databricks
+title: Tech Workshopo Fabric with Databricks
 description: This lab showcases Modern Analytics with Microsoft Fabric and Azure Databricks, featuring a cost-effective, performance-optimized, and cloud-native Analytics solution pattern. 
 theme: just-the-docs
 
 aux_links:
-  "TechExcel Fabric wth Databricks for Data Analytics": 
-    - "https://github.com/microsoft/TechExcel-Fabric-with-Databricks-for-Data-Analytics"
+  "Tech Workshop: Fabric with Databricks for Data Analytics": 
+    - "https://github.com/microsoft/TechWorkshop-L300-Fabric-w-Databricks-for-Data-Analytics"
 
 callouts_level: quiet # or loud
 callouts:

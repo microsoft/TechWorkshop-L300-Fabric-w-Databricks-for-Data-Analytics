@@ -4,55 +4,38 @@ layout: home
 nav_order: 1
 ---
 
-# TechExcel: Microsoft Fabric with Azure Databricks for Data Analytics (lvl 300 / CSU) lab
+#  TechWorkshop L300: Fabric with Databricks for Data Analytics
 
+## Customer scenario
 
-**The estimated time to complete this lab is six hours.**
+Zava Retail Group is a global retail company operating in brick-and-mortar stores and a rapidly expanding e-commerce platform. To accelerate digital transformation, Zava established an AI Center of Excellence (COE) tasked with identifying high-impact, agentic AI opportunities that improve operational efficiency, employee productivity, and strategic decision-making. 
 
-## Overview
+Zava operates in a hybrid cloud environment—Azure for productivity and analytics, AWS for certain legacy workloads, and SAP for supply chain and inventory. They rely on Microsoft 365, Teams, SharePoint, Azure DevOps (ADO), and a mix of third-party and custom systems. 
 
-![ArchitectureDiagramMFADBNew.png](docs/media/instructions240153/ArchitectureDiagramMFADBNew.png)
+However, the COE faces pressure: 
+Google and AWS teams are actively proposing AI solutions, and Zava’s leadership wants to quickly identify a strategic partner with security, governance, extensibility, and enterprise-grade readiness 
 
-This lab showcases Microsoft Fabric and Azure Databricks, featuring a performance-optimized and cloud-native analytics solution pattern. This architecture unifies a customer’s data estate to accelerate data value creation.  
-
-The visual illustrates the real-world example for Contoso, a fictitious company. Contoso is a retailer with thousands of brick-and-mortar stores across the world. They also have an online store. Contoso is acquiring Litware Inc. Litware has curated marketing data and sales data processed by Azure Databricks and stored in the gold layer in ADLS Gen 2. 
-During our exercises, we’ll see how they leveraged the power of Microsoft Fabric to ingest data from disparate sources, combine data with their existing data from ADLS Gen2, and derive meaningful insights. You’ll witness how the team used a shortcut to reference the existing Litware data from ADLS Gen2. You’ll also see how they mounted the OneLake endpoint in Azure Databricks to derive meaningful insights using compute in Azure Databricks.  
- 
-The lab scenario starts on January 30th. The company's new CEO, April, recently noticed negative trends in their KPIs, including:
-
-* High customer churn
-* Declining sales revenue
-* High bounce rate on their website
-* High operating expenses
-* Poor customer experience
-
-April asks Rupesh, the Chief Data Officer how they could create a data-driven organization and reverse these adverse KPI trends. Rupesh talks to his technical team, including Eva, the data engineer, Miguel, the data scientist, and Wendy, the business analyst, to design and implement a solution pattern to realize this dream of a data-driven organization. Our story is centered around Rupesh and his team. They recognize that the existence of data silos within Contoso's various departments presents a significant integration challenge. 
-
-During this lab, as a part of this team, you’ll execute some of these steps to reverse these adverse KPI trends.
-
-Here are the Microsoft Fabric workloads showcased in this solution along with Azure Databricks.
-
-- Synapse Data Engineering
-- Data Factory
-- Synapse Data Science
-- Synapse Data Warehouse
-- Power BI
-- Synapse Real-time Analytics
 
 
 ## Exercises
+This workshop includes the following exercises:
 
-This lab has exercises on:
+- Exercise 0: Provision and configure resources
+- Exercise 1: Create agents by using Copilot Studio
+- Exercise 2: Create agents for enterprise integrations
+- Exercise 3: Implement multi-agent solutions
+- Exercise 4: Evaluate agents
+- Exercise 5: Implement governance and observability
+- Exercise 6: Explore real-time intelligence in Fabric
+- Exercise 7: Create AI-driven insights by using Microsoft Foundry & Genie
 
-- Provision and configure resources
-- Create a Fabric workspace and data pipeline
-- Expore Copilot capabilites
-- Establishing connectivity between Azure Databricks and Azure Data Lake Storage (ADLS) Gen 2
-- Implementing the Medallion Architecture using Azure Databricks (Bronze, Silver and Gold layers)
-- Serving data with Microsoft Fabric
-- Creating PBI reports
-- Use PowerBI Copilot
+---
 
+## Important notes
+
+- The workshop instructions include text fields where you'll be asked to enter information. We use the information that you enter into the text fields later in the instructions to provide you with important values.
+- We append an 8-digit unique identifier (the lab instance ID) to the names of the resources that you create during this workshop. The lab instance ID for your workshop is **@lab.LabInstance.Id**. You should use this number when you create resources.
+- The lab instance ID's used in screenshots will differ from your lab instance ID. They represent the ID in use when we captured screenshots.
 
 ## Disclaimer
 
