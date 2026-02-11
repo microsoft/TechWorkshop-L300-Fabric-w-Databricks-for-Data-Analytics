@@ -21,11 +21,11 @@ Google and AWS teams are actively proposing AI solutions, and Zava’s leadershi
 This workshop includes the following exercises:
 
 - Exercise 0: Provision and configure resources
-- Exercise 1: Create agents by using Copilot Studio
-- Exercise 2: Create agents for enterprise integrations
-- Exercise 3: Implement multi-agent solutions
-- Exercise 4: Evaluate agents
-- Exercise 5: Implement governance and observability
+- Exercise 1: Explore the Fabric data engineering experience
+- Exercise 2: Integrate Azure Databricks with Fabric
+- Exercise 3: Build AI Agents by using Fabric Data Agents
+- Exercise 4: Explore the Fabric Power BI experience
+- Exercise 5: Explore the Microsoft Fabric data science experience
 - Exercise 6: Explore real-time intelligence in Fabric
 - Exercise 7: Create AI-driven insights by using Microsoft Foundry & Genie
 

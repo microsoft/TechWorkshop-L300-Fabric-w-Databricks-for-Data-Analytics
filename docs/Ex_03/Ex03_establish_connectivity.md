@@ -1,18 +1,15 @@
 ---
-title: 'Exercise 04: Establish connectivity between Azure Databricks and Azure Data Lake Storage (ADLS) Gen 2'
+title: 'Exercise 03: Build AI Agents by using Fabric Data Agents'
 layout: default
 nav_order: 5
 has_children: true
 ---
 
-# Exercise 04: Establish connectivity between Azure Databricks and Azure Data Lake Storage (ADLS) Gen 2
+# Exercise 03: Build AI Agents by using Fabric Data Agents
 
-Now that you have explored some capabilities of Copilot in Fabrics, lete's get back to the main lab.By ensuring seamless data flow between Databricks and ADLS Gen 2, Contoso aims to accelerate their analytics and machine learning projects, unlocking new possibilities for innovation and efficiency. 
+Zava wants to empower business users and analysts to interact with enterprise data conversationally, while supporting security, governance, and responsible AI practices. The solution must work across structured and unstructured data stored in OneLake and support enterprise-grade scalability and compliance.
 
-To achieve this, we’ll take the following steps: 
+In this exercise, you will see how to build AI agents by using Fabric Data Agents. Fabric Data Agents allow you to create AI-powered agents that can interact with your data in Microsoft Fabric using natural language.
 
-- Deploy Databricks workspace: Set up a new Azure Databricks workspace to serve as the central hub for data analytics and processing. 
-
-- Authenticate Azure Databricks to the storage account using a service principal: Securely connect your Databricks workspace to the ADLS Gen 2 storage account, employing a service principal for authentication to maintain security and manageability. 
-
-- Connect to the data lake: Finalize the integration by connecting Azure Databricks directly to ADLS Gen 2, enabling direct access to stored data for advanced analytics and processing.
+{: .warning }
+> Fabric data agents is a preview technology. The capabilities, behavior, and user interfaces associated with this feature are subject to change.
