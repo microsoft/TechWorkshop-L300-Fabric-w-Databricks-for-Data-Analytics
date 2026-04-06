@@ -7,4 +7,15 @@ has_children: true
 
 # Exercise 05: Explore the Microsoft Fabric data science experience
  
-Microsoft Fabric offers Data Science experiences to empower users to complete end-to-end data science workflows for data enrichment and business insights. You can complete a wide range of activities across the entire data science process, all the way from data exploration, preparation and cleansing to experimentation, modeling, model scoring and serving predictive insights to BI reports.
+## Scenario
+Zava's data science team wants to understand customer churn and predict future behavior using machine learning models built directly in Fabric.
+
+## Objectives 
+
+In this exercise, you'll:
+-   Explore Fabric's data science experience
+-   Use Copilot to accelerate model development
+-   Run experiments and analyze results
+
+## Duration
+Estimated time to complete this exercise: **25 minutes**
